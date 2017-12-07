@@ -2,10 +2,19 @@
 
 metodik:
 
-klona repo
+VIA BASH:
 
-skapa branch lokalt
+  $ git clone https://github.com/magnusbjornfot/fishy.git
+  (görs bara en gång obviously)
 
-pusha upp till repot
+  $ git checkout -b [name_of_your_new_branch]
 
-När du är klar med branchen, pulla in dev i den och öppna en pull request
+  $ git checkout [name_of_your_new_branch]
+  
+  $ git push origin [name_of_your_new_branch]
+  
+  
+Annars kan man använda sin IDE :)
+
+Innan ni ska merga till dev pulla in 'dev' i branschen. Öppna sedan en Pull Request här på github
+
